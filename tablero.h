@@ -1,9 +1,7 @@
 #ifndef TABLERO_H
 #define TABLERO_H
-
 #include "estructuras.h"
 
-// Funciones para el tablero
 void inicializarTablero(Tablero* tablero);
 void limpiarTablero(Tablero* tablero);
 void mostrarTablero(const Tablero* tablero);
